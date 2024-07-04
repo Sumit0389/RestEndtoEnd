@@ -7,11 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-
     @GetMapping("/home")
     public String  printMessage()
     {
-      return "Welcome to my Page";
+      return "Welcome to my Page///Added by Sumit/" ;
     }
 
     @GetMapping("/home/{id}")
